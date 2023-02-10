@@ -1,0 +1,7 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting xdoctest
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/92/47/ae97a686d922d819ea9d2241d2b7e09d39378b0ab61acf9f2eeb684efd90/xdoctest-1.1.0-py3-none-any.whl (135 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.8/135.8 kB 174.1 kB/s eta 0:00:00
+Requirement already satisfied: six in /usr/local/anaconda3.5/envs/mmlab/lib/python3.7/site-packages (from xdoctest) (1.16.0)
+Installing collected packages: xdoctest
+Successfully installed xdoctest-1.1.0

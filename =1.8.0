@@ -1,0 +1,26 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting onnxruntime
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/81/6e/e42eb266f9e29d4fc680eae1407d0fca2166378f9b9f761a4626fade9fbe/onnxruntime-1.13.1-cp37-cp37m-manylinux_2_27_x86_64.whl (4.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 2.9 MB/s eta 0:00:00
+Collecting flatbuffers
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/04/08/2035e0100c861a2ac6990c8462576672a6387c6f6de46381aaf3c4f464dd/flatbuffers-22.11.23-py2.py3-none-any.whl (26 kB)
+Requirement already satisfied: coloredlogs in /usr/local/anaconda3.5/envs/mmlab/lib/python3.7/site-packages (from onnxruntime) (15.0.1)
+Requirement already satisfied: protobuf in /usr/local/anaconda3.5/envs/mmlab/lib/python3.7/site-packages (from onnxruntime) (4.21.10)
+Requirement already satisfied: packaging in /usr/local/anaconda3.5/envs/mmlab/lib/python3.7/site-packages (from onnxruntime) (21.3)
+Collecting numpy>=1.21.6
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.7/15.7 MB 1.7 MB/s eta 0:00:00
+Collecting sympy
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.4/6.4 MB 903.7 kB/s eta 0:00:00
+Requirement already satisfied: humanfriendly>=9.1 in /usr/local/anaconda3.5/envs/mmlab/lib/python3.7/site-packages (from coloredlogs->onnxruntime) (10.0)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /usr/local/anaconda3.5/envs/mmlab/lib/python3.7/site-packages (from packaging->onnxruntime) (3.0.9)
+Collecting mpmath>=0.19
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 532.6/532.6 kB 510.1 kB/s eta 0:00:00
+Installing collected packages: mpmath, flatbuffers, sympy, numpy, onnxruntime
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.21.5
+    Uninstalling numpy-1.21.5:
+      Successfully uninstalled numpy-1.21.5
+Successfully installed flatbuffers-22.11.23 mpmath-1.2.1 numpy-1.21.6 onnxruntime-1.13.1 sympy-1.10.1
